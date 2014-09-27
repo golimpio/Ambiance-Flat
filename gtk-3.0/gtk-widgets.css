@@ -319,7 +319,7 @@ GtkSwitch.slider:backdrop,
     border-width: 1px;
     border-right-width: 0;
     border-image-width: 10px 0 10px 12px;
-    border-radius: 8px;
+    border-radius: 5px;
     border-bottom-right-radius: 0;
     border-top-right-radius: 0;
 }
@@ -340,7 +340,7 @@ GtkSwitch.slider:backdrop,
     border-width: 1px;
     border-left-width: 0;
     border-image-width: 10px 12px 10px 0;
-    border-radius: 8px;
+    border-radius: 5px;
     border-bottom-left-radius: 0;
     border-top-left-radius: 0;
 }
@@ -361,7 +361,7 @@ GtkSwitch.slider:backdrop,
     border-right-width: 1px;
     border-left-width: 1px;
     border-image-width: 10px 12px 10px 12px;
-    border-radius: 8px;
+    border-radius: 5px;
 }
 
 /* Set up shadows and hilights for button visual separation */
@@ -467,7 +467,7 @@ GtkSwitch.slider:backdrop,
 .header-bar .linked .button:active:only-child,
 .header-bar .linked .button:active:hover:only-child,
 .header-bar .linked .button:insensitive:only-child {
-    border-radius: 8px;
+    border-radius: 5px;
     box-shadow: none;
 }
 
@@ -1248,7 +1248,7 @@ GtkComboBox .menu .menuitem *:insensitive {
  *************************/
 GtkScale,
 GtkProgressBar {
-    border-radius: 8px;
+    border-radius: 5px;
     border-width: 0px;
     padding: 1px;
 }
@@ -1269,7 +1269,7 @@ GtkProgressBar {
 .progressbar row:selected,
 .progressbar row:selected:focused,
 .progressbar row:nth-child(odd) {
-    border-radius: 8px;
+    border-radius: 5px;
     border-width: 0px;
     background-image: none;
     background-color: #db6a3c;
@@ -1283,7 +1283,7 @@ GtkProgressBar {
 .progressbar row:selected:focused:backdrop,
 .scale.highlight.bottom:backdrop,
 .progressbar.vertical:backdrop {
-    border-radius: 8px;
+    border-radius: 5px;
     border-width: 0px;
     background-image: none;
     background-color: #b0b0b0;
@@ -1651,7 +1651,7 @@ GtkComboBox .menuitem.separator {
 .spinbutton.button:active:backdrop:nth-child(last),
 .spinbutton.button:insensitive:backdrop:nth-child(last),
 .spinbutton.button:backdrop:nth-child(last) {
-    border-radius: 0 7px 7px 0;
+    border-radius: 0 5px 5px 0;
 }
 
 .spinbutton.button,
@@ -1813,12 +1813,12 @@ GtkStatusbar {
  * switch *
  **********/
 GtkSwitch {
-    border-radius: 8px;
+    border-radius: 5px;
     padding: 0;
 }
 
 GtkSwitch.trough {
-    border-radius: 8px;
+    border-radius: 5px;
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (#cecece),
                                      to (#e8e8e8));
@@ -1849,7 +1849,7 @@ GtkSwitch.trough:insensitive {
 
 GtkSwitch.slider {
     padding: 1px;
-    border-radius: 6px;
+    border-radius: 5px;
     border-style: solid;
 }
 
@@ -1878,7 +1878,7 @@ GtkTextView {
     border-color: shade (@dark_bg_color, 1.5);
     border-style: solid;
     border-width: 1px 0 0 0;
-    border-radius: 7px 7px 0 0;
+    border-radius: 5px 5px 0 0;
 
     color: @dark_fg_color;
     text-shadow: 0 -1px shade (@dark_bg_color, 0.7);
@@ -2146,7 +2146,7 @@ GtkTextView {
     border-left-width: 1px;
     border-right-width: 0;
     border-image-width: 10px 0 10px 12px;
-    border-radius: 8px;
+    border-radius: 5px;
     border-bottom-right-radius: 0;
     border-top-right-radius: 0;
 }
@@ -2169,7 +2169,7 @@ GtkTextView {
     border-left-width: 0;
     border-right-width: 1px;
     border-image-width: 10px 12px 10px 0;
-    border-radius: 8px;
+    border-radius: 5px;
     border-bottom-left-radius: 0;
     border-top-left-radius: 0;
     /*box-shadow: inset 1px 0 shade (@bg_color, 0.84);*/
@@ -2193,7 +2193,7 @@ GtkTextView {
     border-right-width: 1px;
     border-left-width: 1px;
     border-image-width: 10px 12px 10px 12px;
-    border-radius: 8px;
+    border-radius: 5px;
     /*box-shadow: none;*/
 }
 
