@@ -1,3 +1,30 @@
+/* Panel Style */
+
+UnityPanelWidget,
+.unity-panel {
+    background-color: @dark_bg_color;
+    border-width: 0;
+    color: @dark_fg_color;
+}
+
+.unity-panel.menubar,
+.unity-panel .menubar {
+    color: @dark_fg_color;
+    text-shadow: none;
+}
+
+.unity-panel.menuitem,
+.unity-panel .menuitem {
+    border-width: 1px 1px 0 1px;
+    text-shadow: none;
+}
+
+.unity-panel.menubar.menuitem:hover,
+.unity-panel.menubar .menuitem *:hover {
+    background-color: shade (@selected_bg_color, 1.05);
+    color: @selected_fg_color;
+}
+
 /* Decorations */
 
 UnityDecoration {
@@ -20,7 +47,7 @@ UnityDecoration {
 }
 
 UnityDecoration.top {
-    border: 1px solid rgba (0, 3, 5, 0.03); /* shade (@dark_bg_color, 1.04) - shade (@dark_bg_color, 1.5) */
+    border: 1px solid rgba (0, 3, 5, 0.03);
     border-bottom-width: 0;
     border-radius: 5px 5px 0 0;
     padding: 1px 6px 0 6px;
@@ -32,7 +59,7 @@ UnityDecoration.top {
     background-clip: border-box;
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 1.04)),
-                                     to (shade (@dark_bg_color, 1.00)));
+                                     to (@dark_bg_color));
 
     color: @dark_fg_color;
     text-shadow: none;
@@ -41,14 +68,11 @@ UnityDecoration.top {
 UnityDecoration.top:backdrop {
     border: none;
     border-bottom-width: 0;
-    background-color: transparent;
+    background-color: dark_bg_color;
     background-clip: border-box;
-    background-image: -gtk-gradient (linear, left top, left bottom,
-                                     from (shade (@dark_bg_color, 0.9)),
-                                     to (@dark_bg_color));
     box-shadow: inset 0 0 transparent, inset 0 0 transparent,
-                inset 0 1px #474648, inset 0 0 transparent;
-    color: #807d78;
+                inset 0 1px shade (@dark_bg_color, 1.1), inset 0 0 transparent;
+    color: shade (@dark_fg_color, 0.6);
 }
 
 UnityDecoration.left,
@@ -76,47 +100,4 @@ UnityDecoration.right:backdrop {
 UnityDecoration.bottom {
     background-image: none;
     background-color: shade (@bg_color, 0.7);
-}
-
-/* Panel Style */
-
-UnityPanelWidget,
-.unity-panel {
-    background-color: transparent;
-    background-image: -gtk-gradient (linear, left top, left bottom,
-                                     from (shade (@dark_bg_color, 1.5)),
-                                     to (shade (@dark_bg_color, 1.04)));
-    border-top-color: shade (@dark_bg_color, 1.6);
-    border-style: solid;
-    border-width: 1px 0 0 0;
-
-    color: @dark_fg_color;
-    text-shadow: 1px 0 #333, -1px 0 #333, 0 1px #333, 0 -1px #333;
-}
-
-UnityPanelWidget:backdrop,
-.unity-panel:backdrop {
-    color: #807d78;
-}
-
-.unity-panel.menubar,
-.unity-panel .menubar {
-}
-
-.unity-panel.menuitem,
-.unity-panel .menuitem {
-    border-width: 1px 1px 0 1px;
-    icon-shadow: 0 -1px shade (@dark_bg_color, 0.7);
-}
-
-.unity-panel.menubar:backdrop,
-.unity-panel .menubar *:backdrop {
-    color: @backdrop_dark_fg_color;
-}
-
-.unity-panel.menubar.menuitem:hover,
-.unity-panel.menubar .menuitem *:hover {
-    background-image: -gtk-gradient (linear, left top, left bottom,
-                                     from (shade (@dark_bg_color, 1.5)),
-                                     to (shade (@dark_bg_color, 1.11)));
 }
