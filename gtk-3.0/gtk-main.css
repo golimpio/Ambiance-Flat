@@ -22,11 +22,11 @@
 @define-color error_color #df382c;
 
 /* theme common colors */
-@define-color button_bg_color shade (@bg_color, 1.02); /*shade (#cdcdcd, 1.08);*/
+@define-color button_bg_color shade (@bg_color, 1.02);
 @define-color notebook_button_bg_color shade (@bg_color, 1.02);
 @define-color button_insensitive_bg_color mix (@button_bg_color, @bg_color, 0.6);
 @define-color dark_bg_color #3c3f41;
-@define-color dark_fg_color #dfdbd2;
+@define-color dark_fg_color #dcdfe1;
 
 @define-color backdrop_fg_color mix (@bg_color, @fg_color, 0.8);
 @define-color backdrop_text_color mix (@base_color, @text_color, 0.8);
