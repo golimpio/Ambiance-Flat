@@ -112,7 +112,7 @@ GtkAssistant .sidebar {
     padding: 12px;
 
     color: mix (@fg_color, @bg_color, 0.40);
-    text-shadow: 0 1px shade (@bg_color, 1.04);
+    text-shadow: none;
 
     box-shadow: inset -1px 0 shade (@bg_color, 0.94);
 }
@@ -134,7 +134,7 @@ GtkSwitch.slider,
                                      to (shade (@button_bg_color, 0.94)));
 
     color: @fg_color;
-    text-shadow: 0 1px alpha (shade (@button_bg_color, 1.25), 0.4);
+    text-shadow: none;
 }
 
 GtkSwitch.slider:backdrop,
@@ -143,7 +143,7 @@ GtkSwitch.slider:backdrop,
     background-color: @bg_color;
 
     color: @backdrop_fg_color;
-    text-shadow: 0 1px alpha (shade (@button_bg_color, 1.25), 0.2);
+    text-shadow: none;
 }
 
 .button:hover {
@@ -162,14 +162,14 @@ GtkSwitch.slider:backdrop,
     background-image: none;
     background-color: mix (#ebebeb, @bg_color, 0.5);
 
-    text-shadow: 0 1px alpha (shade (@button_bg_color, 1.25), 0.4);
+    text-shadow: none;
 }
 
 .button:insensitive:backdrop {
     background-image: none;
     background-color: #ebebeb;
 
-    text-shadow: 0 1px alpha (shade (@button_bg_color, 1.25), 0.2);
+    text-shadow: none;
 }
 
 .button:active {
@@ -547,7 +547,7 @@ column-header .button {
     box-shadow: inset -1px 0 shade (@bg_color, 1.1),
                 inset 0 -1px shade (@bg_color, 1.1);
 
-    text-shadow: 0 1px alpha (shade (@bg_color, 1.25), 0.4);
+    text-shadow: none;
 }
 
 column-header .button:backdrop {
@@ -1054,7 +1054,7 @@ GtkMenuToolButton.menu .menuitem *:insensitive,
 .menuitem:insensitive,
 .menuitem *:insensitive {
     color: mix (@dark_fg_color, @dark_bg_color, 0.5);
-    text-shadow: 0 -1px shade (@dark_bg_color, 0.6);
+    text-shadow: none;
 }
 
 .toolbar .menu .menuitem:insensitive,
@@ -1062,7 +1062,7 @@ GtkMenuToolButton.menu .menuitem *:insensitive,
 GtkComboBox .menu .menuitem:insensitive,
 GtkComboBox .menu .menuitem *:insensitive {
     color: mix (@fg_color, @bg_color, 0.5);
-    text-shadow: 0 1px shade (@bg_color, 1.14);
+    text-shadow: none;
 }
 
 .menuitem GtkCalendar,
@@ -1125,7 +1125,7 @@ GtkComboBox .menu .menuitem *:insensitive {
 
 .menuitem .accelerator:insensitive {
     color: alpha (mix (@dark_fg_color, @dark_bg_color, 0.5), 0.5);
-    text-shadow: 0 -1px shade (@dark_bg_color, 0.7);
+    text-shadow: none;
 }
 
 .menuitem > GtkBox > GtkImage + GtkLabel {
@@ -1594,7 +1594,7 @@ GtkComboBox .menuitem.separator {
  * sidebar *
  ***********/
 .sidebar row:selected {
-    text-shadow: 0 1px shade (@selected_bg_color, 0.7);
+    text-shadow: none;
 }
 
 .sidebar .frame {
@@ -1789,7 +1789,7 @@ GtkSwitch.trough {
                                      to (#e8e8e8));
 
     color: @fg_color;
-    text-shadow: 0 1px alpha (shade (@bg_color, 1.25), 0.5);
+    text-shadow: none;
 }
 
 GtkSwitch.trough:active {
@@ -1798,7 +1798,7 @@ GtkSwitch.trough:active {
                                      to (shade (@selected_bg_color, 0.99)));
 
     color: @selected_fg_color;
-    text-shadow: 0 1px shade (@selected_bg_color, 0.7);
+    text-shadow: none;
 }
 
 /* XXX temporary */
@@ -1809,7 +1809,7 @@ GtkSwitch.trough:insensitive {
                                      to (shade (@bg_color, 0.99)));
 
     color: shade (@bg_color, 0.6);
-    text-shadow: 0 1px alpha (shade (@bg_color, 1.25), 0.5);
+    text-shadow: none;
 }
 
 GtkSwitch.slider {
@@ -1846,7 +1846,7 @@ GtkTextView {
     border-radius: 5px 5px 0 0;
 
     color: @dark_fg_color;
-    text-shadow: 0 -1px shade (@dark_bg_color, 0.7);
+    text-shadow: none;
 
     box-shadow: inset 0 1px shade (@dark_bg_color, 1.65);
 }
@@ -1940,7 +1940,7 @@ GtkTextView {
 .primary-toolbar :insensitive,
 .menubar.toolbar .toolbar :insensitive,
 .header-bar :insensitive {
-    text-shadow: 0 -1px shade (@dark_bg_color, 0.7);
+    text-shadow: none;
 }
 
 .primary-toolbar GtkComboBox,
@@ -1957,7 +1957,7 @@ GtkTextView {
     /*padding: 3px;*/
 
     color: @dark_fg_color;
-    text-shadow: 0 -1px shade (@dark_bg_color, 0.7);
+    text-shadow: none;
 }
 
 .primary-toolbar GtkComboBox:backdrop,
@@ -1967,7 +1967,7 @@ GtkTextView {
 .header-bar GtkComboBox:backdrop,
 .header-bar .button:backdrop {
     color: @backdrop_dark_fg_color;
-    text-shadow: 0 -1px shade (@dark_bg_color, 0.9);
+    text-shadow: none;
 }
 
 .primary-toolbar .raised .button,
@@ -1998,7 +1998,7 @@ GtkTextView {
                                      from (shade (@dark_bg_color, 0.9)),
                                      to (shade (@dark_bg_color, 0.95)));
 
-    text-shadow: 0 -1px shade (@dark_bg_color, 0.6);
+    text-shadow: none;
 }
 
 .primary-toolbar .button:active:hover,
@@ -2238,7 +2238,7 @@ GtkViewport.frame {
  *****************************************************************************/
 *:insensitive {
     color: shade (@bg_color, 0.6);
-    text-shadow: 0 1px alpha (shade (@bg_color, 1.25), 0.5);
+    text-shadow: none;
 }
 
 *:selected,
