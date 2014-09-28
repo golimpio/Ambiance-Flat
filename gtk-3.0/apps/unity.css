@@ -2,9 +2,15 @@
 
 UnityPanelWidget,
 .unity-panel {
-    background-color: @dark_bg_color;
-    border-width: 0;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    background-clip: none;
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     from (@dark_bg_color),
+                                     to (@dark_bg_color));
     color: @dark_fg_color;
+    text-shadow: none;
 }
 
 .unity-panel.menubar,
@@ -21,8 +27,12 @@ UnityPanelWidget,
 
 .unity-panel.menubar.menuitem:hover,
 .unity-panel.menubar .menuitem *:hover {
-    background-color: shade (@selected_bg_color, 1.05);
-    color: @selected_fg_color;
+    border: none;
+    background-color: transparent;
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     from (shade (@dark_bg_color, 1.25)),
+                                     to (shade (@dark_bg_color, 1.05)));
+    color: @dark_fg_color;
 }
 
 /* Decorations */
@@ -47,18 +57,18 @@ UnityDecoration {
 }
 
 UnityDecoration.top {
-    border: 1px solid rgba (0, 3, 5, 0.03);
+    border: none;
     border-bottom-width: 0;
     border-radius: 5px 5px 0 0;
     padding: 1px 6px 0 6px;
 
     box-shadow: inset 0 0 transparent, inset 0 0 transparent,
-                inset 0 1px shade (@dark_bg_color, 1.08), inset 0 0 transparent;
+                inset 0 1px shade (@dark_bg_color, 1.2), inset 0 0 transparent;
 
     background-color: transparent;
     background-clip: border-box;
     background-image: -gtk-gradient (linear, left top, left bottom,
-                                     from (shade (@dark_bg_color, 1.04)),
+                                     from (@dark_bg_color),
                                      to (@dark_bg_color));
 
     color: @dark_fg_color;
@@ -68,10 +78,12 @@ UnityDecoration.top {
 UnityDecoration.top:backdrop {
     border: none;
     border-bottom-width: 0;
-    background-color: dark_bg_color;
-    background-clip: border-box;
+
     box-shadow: inset 0 0 transparent, inset 0 0 transparent,
                 inset 0 1px shade (@dark_bg_color, 1.1), inset 0 0 transparent;
+
+    background-color: @dark_bg_color;
+    background-clip: border-box;
     color: shade (@dark_fg_color, 0.6);
 }
 
