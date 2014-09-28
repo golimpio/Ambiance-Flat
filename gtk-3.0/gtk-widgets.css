@@ -1844,7 +1844,7 @@ GtkTextView {
 }
 
 .titlebar.header-bar {
-    padding: 3px;
+    padding: 5px;
 
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 1.1)),
@@ -1891,7 +1891,7 @@ GtkTextView {
     border-radius: 5px 5px 0 0;
     /* lamefun trick to get rounded borders regardless of CSD use */
     border-width: 0px;
-    box-shadow: 0 0 0 1px @wm_border, 0 2px 8px 3px @wm_shadow;
+    box-shadow: 0 0 0 1px @wm_border, 0 2px 14px 3px @wm_shadow;
 
     /* this is used for the resize cursor area */
     margin: 10px;
