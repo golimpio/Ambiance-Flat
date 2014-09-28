@@ -929,9 +929,7 @@ GtkComboBox .menu {
 
     color: @fg_color;
 
-    box-shadow: inset -1px 0 shade (@bg_color, 1.12),
-                inset 1px 0 shade (@bg_color, 1.12),
-                inset 0 1px shade (@bg_color, 1.12);
+    box-shadow: none;
 }
 
 .menu:selected {
@@ -992,10 +990,6 @@ GtkComboBox .menu {
 /************
  * menuitem *
  ************/
-/*.menuitem {
-    color: @fg_color;
-}*/
-
 .menuitem {
     -GtkMenuItem-horizontal-padding: 0;
     background: transparent;
@@ -1023,14 +1017,12 @@ GtkComboBox .menuitem *:hover {
     border-image: -gtk-gradient (linear, left top, left bottom,
                                  from (shade (@selected_bg_color, 0.7)),
                                  to (shade (@selected_bg_color, 0.7))) 1;
-    border-image-width: 1px;
+    border-image-width: 0px;
     box-shadow: inset 1px 0 shade (@selected_bg_color, 1.02),
-                inset -1px 0 shade (@selected_bg_color, 1.02),
-                inset 0 1px shade (@selected_bg_color, 1.16),
-                inset 0 -1px shade (@selected_bg_color, 0.96);
+                inset 0 1px shade (@selected_bg_color, 1.12);
 
     color: @selected_fg_color;
-    text-shadow: 0 -1px shade (@selected_bg_color, 0.7);
+    text-shadow: none;
 }
 
 .menuitem.check:active,
@@ -1043,12 +1035,6 @@ GtkComboBox .menuitem *:hover {
     box-shadow: none;
 }
 
-/*.menuitem:insensitive,
-.menuitem *:insensitive {
-    color: mix (@fg_color, @bg_color, 0.5);
-    text-shadow: 0 1px shade (@bg_color, 1.14);
-}
-*/
 GtkTreeMenu.menu .menuitem:insensitive,
 GtkTreeMenu.menu .menuitem *:insensitive,
 .toolbar .primary-toolbar .menu .menuitem:insensitive,

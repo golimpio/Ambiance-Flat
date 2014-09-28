@@ -49,7 +49,7 @@ UnityDecoration {
     -UnityDecoration-inactive-shadow-radius: 25px;
 
     -UnityDecoration-glow-size: 10px;
-    -UnityDecoration-glow-color: rgb (221, 72, 20);
+    -UnityDecoration-glow-color: @selected_bg_color;
 
     -UnityDecoration-title-indent: 10px;
     -UnityDecoration-title-fade: 35px;
