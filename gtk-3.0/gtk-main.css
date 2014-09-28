@@ -37,6 +37,15 @@
 
 @define-color shadow_color alpha(black, 0.5);
 
+/* WM */
+@define-color borders shade(@dark_bg_color, 0.82);
+@define-color wm_title_highlight #ffffff;
+@define-color wm_title_shadow @wm_title_highlight;
+@define-color wm_bg_a shade (@dark_bg_color, 1.1);
+@define-color wm_bg_b @dark_bg_color;
+@define-color wm_shadow alpha(black, 0.5);
+@define-color wm_border alpha(black,0.18);
+
 @import url("gtk-widgets-borders.css");
 @import url("gtk-widgets-assets.css");
 @import url("gtk-widgets.css");

@@ -1835,12 +1835,21 @@ GtkTextView {
  * that prefer showing traditional title bars. The rules for those are further
  * down grouped with normal toolbars.
  */
+.titlebar {
+    text-shadow: 0 1px @wm_title_shadow;
+    background-image: linear-gradient(to bottom, @wm_bg_a, @wm_bg_b);
+    border-radius: 5px 5px 0px 0px;
+    box-shadow: inset 0 -1px alpha(@base_color, 0.4);
+    border-color: @borders;
+}
+
 .titlebar.header-bar {
-    padding: 2px;
+    padding: 3px;
+
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 1.1)),
                                      to (@dark_bg_color));
-    border-color: shade (@dark_bg_color, 1.5);
+    border-color: shade (@dark_bg_color, 1.2);
     border-style: solid;
     border-width: 1px 0 0 0;
     border-radius: 5px 5px 0 0;
@@ -1848,7 +1857,7 @@ GtkTextView {
     color: @dark_fg_color;
     text-shadow: none;
 
-    box-shadow: inset 0 1px shade (@dark_bg_color, 1.65);
+    box-shadow: inset 0 1px shade (@dark_bg_color, 1.1);
 }
 
 .titlebar.header-bar .title {
@@ -1860,7 +1869,7 @@ GtkTextView {
     background-image: none;
     background-color: @dark_bg_color;
     border-top-color: @dark_bg_color;
-    box-shadow: inset 0 1px shade (@dark_bg_color, 1.2);
+    box-shadow: inset 0 1px shade (@dark_bg_color, 1.05);
 }
 
 .maximized .titlebar.header-bar {
@@ -1876,6 +1885,25 @@ GtkTextView {
 
 .titlebar.header-bar .button.titlebutton:hover {
     border-image-width: 12px;
+}
+
+.window-frame {
+    border-radius: 5px 5px 0 0;
+    /* lamefun trick to get rounded borders regardless of CSD use */
+    border-width: 0px;
+    box-shadow: 0 0 0 1px @wm_border, 0 2px 8px 3px @wm_shadow;
+
+    /* this is used for the resize cursor area */
+    margin: 10px;
+}
+
+.window-frame.tiled {
+    border-radius: 0;
+    background-color: @theme_bg_color;
+}
+
+.window-frame:backdrop {
+    box-shadow: 0 0 0 1px shade(@wm_border,1.1), 0 2px 5px 1px @wm_shadow;
 }
 
 /***********
