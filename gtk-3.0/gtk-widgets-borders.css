@@ -19,7 +19,7 @@ GtkSwitch.trough:active {
  * button *
  **********/
 .button {
-    border-radius: 8px;
+    border-radius: 5px;
     border-width: 1px;
     border-style: solid;
     border-color: transparent;
