@@ -14,7 +14,7 @@
    height="19"
    id="svg4875"
    version="1.1"
-   inkscape:version="0.48+devel r"
+   inkscape:version="0.48.5 r10040"
    viewBox="0 0 19 19"
    sodipodi:docname="close.svg">
   <defs
@@ -30,20 +30,19 @@
        gradientUnits="userSpaceOnUse"
        gradientTransform="translate(-1072.3622,-1053.3622)" />
     <linearGradient
-       id="linearGradient4509"
-       inkscape:collect="always">
+       id="linearGradient4509">
       <stop
          id="stop4803"
          offset="0"
-         style="stop-color:#de4c19;stop-opacity:1" />
+         style="stop-color:#c4c4c4;stop-opacity:1;" />
       <stop
-         style="stop-color:#e55e30;stop-opacity:1"
+         style="stop-color:#e3e3e3;stop-opacity:1;"
          offset="0.50001228"
          id="stop4805" />
       <stop
          id="stop4807"
          offset="1"
-         style="stop-color:#f58d6e;stop-opacity:1" />
+         style="stop-color:#fefefe;stop-opacity:1;" />
     </linearGradient>
     <linearGradient
        inkscape:collect="always"
@@ -85,16 +84,21 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="30.357661"
-     inkscape:cx="7.2411706"
-     inkscape:cy="5.816489"
+     inkscape:zoom="21.466108"
+     inkscape:cx="7.6611131"
+     inkscape:cy="7.1044132"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0" />
+     fit-margin-bottom="0"
+     inkscape:window-width="915"
+     inkscape:window-height="827"
+     inkscape:window-x="922"
+     inkscape:window-y="345"
+     inkscape:window-maximized="0" />
   <metadata
      id="metadata4880">
     <rdf:RDF>
@@ -103,7 +107,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -124,7 +128,7 @@
          cx="9.4999924"
          id="path4505"
          style="color:#000000;fill:#383734;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:8;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         d="m 17.999992,1062.8622 a 8.5,8.5 0 0 1 -8.4999996,8.5 8.5,8.5 0 0 1 -8.50000003,-8.5 8.5,8.5 0 0 1 8.50000003,-8.5 8.5,8.5 0 0 1 8.4999996,8.5 z" />
+         d="m 17.999992,1062.8622 c 0,4.6944 -3.805579,8.5 -8.4999996,8.5 -4.6944204,0 -8.50000003,-3.8056 -8.50000003,-8.5 0,-4.6944 3.80557963,-8.5 8.50000003,-8.5 4.6944206,0 8.4999996,3.8056 8.4999996,8.5 z" />
       <circle
          transform="matrix(0,-1,1,0,0,0)"
          style="color:#000000;fill:url(#linearGradient4515);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:8;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
@@ -132,7 +136,7 @@
          cx="-1062.8622"
          cy="9.4999952"
          r="7.49998"
-         d="m -1055.3622,9.4999952 a 7.49998,7.49998 0 0 1 -7.5,7.4999798 7.49998,7.49998 0 0 1 -7.5,-7.4999798 7.49998,7.49998 0 0 1 7.5,-7.4999799 7.49998,7.49998 0 0 1 7.5,7.4999799 z" />
+         d="m -1055.3622,9.4999952 c 0,4.1421248 -3.3579,7.4999798 -7.5,7.4999798 -4.1421,0 -7.5,-3.357855 -7.5,-7.4999798 0,-4.1421245 3.3579,-7.4999799 7.5,-7.4999799 4.1421,0 7.5,3.3578554 7.5,7.4999799 z" />
       <path
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;opacity:0.07000002;color:#000000;color-interpolation:sRGB;color-interpolation-filters:linearRGB;fill:url(#linearGradient7588);fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;isolation:auto;mix-blend-mode:normal;enable-background:accumulate;clip-rule:nonzero;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;font-family:sans-serif;-inkscape-font-specification:sans-serif"
          d="m 2,1062.8613 c 0,-4.1362 3.363788,-7.5 7.5,-7.5 4.136212,0 7.5,3.3638 7.5,7.5 0,4.1362 -3.363788,7.5 -7.5,7.5 -4.136212,0 -7.5,-3.3638 -7.5,-7.5 z m 1,0 c 0,3.5958 2.9042281,6.5 6.5,6.5 3.595772,0 6.5,-2.9042 6.5,-6.5 0,-3.5957 -2.904228,-6.5 -6.5,-6.5 -3.5957719,0 -6.5,2.9043 -6.5,6.5 z"

@@ -5,7 +5,6 @@ UnityPanelWidget,
     border: none;
     box-shadow: none;
     background-color: transparent;
-    background-clip: none;
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (@dark_bg_color),
                                      to (@dark_bg_color));
