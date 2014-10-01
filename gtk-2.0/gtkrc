@@ -190,7 +190,7 @@ style "button" {
 		glow_shade = 1.02
 		lightborder_shade = 1.32
 #		lightborderstyle = 0
-		#text_shade = 1.04
+		text_shade = 1.0
 	}
 }
 
