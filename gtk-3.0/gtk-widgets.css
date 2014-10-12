@@ -2093,8 +2093,8 @@ GtkTextView {
     border-left-color: shade (@bg_color, 0.86);
 
     background-image: -gtk-gradient (linear, left top, left bottom,
-                                     from (shade (#f2f1ef, 0.93)),
-                                     color-stop (0.08, #f2f1ef),
+                                     from (shade (#f2f4f6, 0.93)),
+                                     color-stop (0.08, #f2f4f6),
                                      to (#ffffff));
     border-width: 0 1px 1px 1px;
     border-style: solid;
