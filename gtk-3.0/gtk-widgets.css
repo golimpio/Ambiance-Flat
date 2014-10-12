@@ -1914,9 +1914,9 @@ GtkTextView {
     box-shadow: 0 0 0 1px shade(@wm_border,1.1), 0 2px 5px 1px @wm_shadow;
 }
 
-/***********
- * toolbar *
- ***********/
+/************
+ * Toolbars *
+ ************/
 .toolbar {
     border-style: none;
     padding: 1px;
@@ -1929,11 +1929,6 @@ GtkTextView {
     color: @backdrop_fg_color;
 }
 
-.toolbar .button {
-    /*padding: 1px;*/
-    /*padding: 6px 8px;*/
-}
-
 /* primary-toolbar */
 .primary-toolbar,
 .primary-toolbar .toolbar,
@@ -1944,11 +1939,11 @@ GtkTextView {
 
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 0.96)),
-                                     to (shade (@dark_bg_color, 1.15)));
-    border-bottom-color: shade (@dark_bg_color, 1.1);
+                                     to (shade (@dark_bg_color, 1.0)));
+    border-bottom-color: shade (@dark_bg_color, 1.0);
     border-top-color: shade (@dark_bg_color, 1.09);
     border-style: solid;
-    border-width: 0 0 1px;
+    border-width: 0 0 1px 0;
     border-radius: 0;
 
     color: @dark_fg_color;
@@ -1956,7 +1951,7 @@ GtkTextView {
 
     box-shadow: inset 0 1px shade (@dark_bg_color, 0.94);
 
-    padding: 3px 3px 3px 3px;
+    padding: 4px 4px 3px 4px;
 }
 
 .primary-toolbar .toolbar:backdrop,
@@ -1988,9 +1983,6 @@ GtkTextView {
     background-color: transparent;
     background-image: none;
     border-color: transparent;
-    /*border-radius: 3px;*/
-    /*border-width: 1px;*/
-    /*padding: 3px;*/
 
     color: @dark_fg_color;
     text-shadow: none;
@@ -2024,7 +2016,6 @@ GtkTextView {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 1.2)),
                                      to (shade (@dark_bg_color, 1.1)));
-    /*border-width: 1px;*/
 }
 
 .primary-toolbar .button:active,

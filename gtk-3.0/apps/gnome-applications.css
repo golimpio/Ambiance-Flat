@@ -99,9 +99,9 @@ NautilusQueryEditor.info {
 /* This will make the location entry tall as buttons.
    Buttons are too tall btw, then it's ugly */
 /*NautilusLocationEntry.entry {
-    -GtkEntry-inner-border: 9;
-}*/
-
+    -GtkEntry-inner-border: 8;
+}
+*/
 NautilusLocationEntry.entry {
     padding-left: 4px;
     padding-right: 4px;

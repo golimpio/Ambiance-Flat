@@ -105,7 +105,11 @@ NautilusFloatingBar .button {
     -GtkButton-inner-border: 0;
 }
 
+/* Make the others the same size of Nautilus pathbar buttons */
 NautilusWindow .header-bar .button {
+    padding: 8px 8px;
+}
+NautilusWindow .header-bar .button.image-button {
     padding: 9px;
 }
 
