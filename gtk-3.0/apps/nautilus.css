@@ -116,7 +116,7 @@ NautilusWindow .header-bar .button.image-button {
 /* sidebar */
 NautilusWindow .sidebar,
 NautilusWindow .sidebar .view {
-    background-color: shade (@bg_color, 0.99);
+    background-color: @side_bar_bg;
     color: @fg_color;
     text-shadow: none;
 }
@@ -130,7 +130,7 @@ NautilusWindow .sidebar .frame {
 
 NautilusWindow .sidebar:backdrop,
 NautilusWindow .sidebar .view:backdrop {
-    background-color: shade (@bg_color, 1.05);
+    background-color: @side_bar_backdrop_bg;
     color: mix (@fg_color, shade (@bg_color, 0.95), 0.2);
     text-shadow: none;
 }
