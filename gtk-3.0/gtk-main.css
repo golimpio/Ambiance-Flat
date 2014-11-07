@@ -46,8 +46,8 @@
 @define-color notebook_tab_hilight shade(@bg_color, 1.02);
 
 /* Nautilus */
-@define-color side_bar_bg #f0f0f2;
-@define-color side_bar_backdrop_bg shade (@side_bar_bg, 1.02);
+@define-color side_bar_bg #ededee;
+@define-color side_bar_backdrop_bg shade (@side_bar_bg, 1.03);
 
 /* WM */
 @define-color borders shade(@dark_bg_color, 0.92);

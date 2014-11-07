@@ -382,7 +382,7 @@ GtkSwitch.slider:backdrop,
 .header-bar .linked .button,
 .header-bar .button.raised.linked,
 .header-bar .raised.linked .button {
-    box-shadow: inset 1px 0 shade (@dark_bg_color, 1.2),
+    box-shadow: inset 1px 0 shade (@dark_bg_color, 1.1),
                 inset -1px 0 shade (@dark_bg_color, 0.95);
 }
 
@@ -407,7 +407,7 @@ GtkSwitch.slider:backdrop,
 .header-bar .linked .button:last-child,s
 .header-bar .button.raised.linked:last-child,
 .header-bar .raised.linked .button:last-child {
-    box-shadow: inset 1px 0 shade (@dark_bg_color, 1.2)
+    box-shadow: inset 1px 0 shade (@dark_bg_color, 1.1)
 }
 
 .primary-toolbar .linked .button:active,
@@ -443,7 +443,7 @@ GtkSwitch.slider:backdrop,
 .header-bar .linked .button:backdrop:last-child,
 .header-bar .button.raised.linked:backdrop:last-child,
 .header-bar .raised.linked .button:backdrop:last-child {
-    box-shadow: inset 1px 0 shade (@dark_bg_color, 1.1);
+    box-shadow: inset 1px 0 shade (@dark_bg_color, 1.05);
 }
 
 /*.primary-toolbar .linked .button:insensitive:backdrop,
@@ -1981,7 +1981,10 @@ GtkTextView {
 .header-bar GtkComboBox,
 .header-bar .button {
     background-color: transparent;
-    background-image: none;
+    /*background-image: none;*/
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     from (shade (@dark_bg_color, 1.2)),
+                                     to (shade (@dark_bg_color, 1.1)));
     border-color: transparent;
 
     color: @dark_fg_color;
@@ -1994,6 +1997,9 @@ GtkTextView {
 .menubar.toolbar .button:backdrop,
 .header-bar GtkComboBox:backdrop,
 .header-bar .button:backdrop {
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     from (shade (@dark_bg_color, 1.1)),
+                                     to (shade (@dark_bg_color, 1.0)));
     color: @backdrop_dark_fg_color;
     text-shadow: none;
 }
@@ -2028,12 +2034,20 @@ GtkTextView {
     text-shadow: none;
 }
 
+.primary-toolbar .button:hover,
+.menubar.toolbar .button:hover,
+.header-bar .button:hover {
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     from (shade (@dark_bg_color, 1.25)),
+                                     to (shade (@dark_bg_color, 1.2)));
+}
+
 .primary-toolbar .button:active:hover,
 .menubar.toolbar .button:active:hover,
 .header-bar .button:active:hover {
     background-image: -gtk-gradient (linear, left top, left bottom,
-                                     from (shade (@dark_bg_color, 0.95)),
-                                     to (shade (@dark_bg_color, 1.0)));
+                                     from (shade (@dark_bg_color, 0.8)),
+                                     to (shade (@dark_bg_color, 0.85)));
 }
 
 .primary-toolbar .button:active:insensitive,
