@@ -188,9 +188,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="7.198347"
-     inkscape:cx="7.944218"
-     inkscape:cy="12.824377"
+     inkscape:zoom="28.105263"
+     inkscape:cx="9.5000028"
+     inkscape:cy="9.5000074"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -199,9 +199,9 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:window-width="754"
-     inkscape:window-height="510"
+     inkscape:window-height="684"
      inkscape:window-x="1062"
-     inkscape:window-y="612"
+     inkscape:window-y="368"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata4880">
@@ -220,53 +220,6 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(287.35715,-522.86219)">
-    <g
-       id="use4830"
-       inkscape:export-filename="maximize.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"
-       transform="translate(-358.52059,-1596.1156)">
-      <circle
-         sodipodi:ry="8.5"
-         sodipodi:rx="8.5"
-         sodipodi:cy="1062.8622"
-         sodipodi:cx="9.4999924"
-         d="m 17.999992,1062.8622 c 0,4.6944 -3.805579,8.5 -8.4999996,8.5 -4.6944204,0 -8.50000003,-3.8056 -8.50000003,-8.5 0,-4.6944 3.80557963,-8.5 8.50000003,-8.5 4.6944206,0 8.4999996,3.8056 8.4999996,8.5 z"
-         r="8.5"
-         cy="1062.8622"
-         cx="9.4999924"
-         id="circle6182"
-         style="color:#000000;fill:#383734;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:8;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
-      <circle
-         sodipodi:ry="7.49998"
-         sodipodi:rx="7.49998"
-         sodipodi:cy="9.4999952"
-         sodipodi:cx="-1062.8622"
-         d="m -1055.3622,9.4999952 c 0,4.1421248 -3.3579,7.4999798 -7.5,7.4999798 -4.1421,0 -7.5,-3.357855 -7.5,-7.4999798 0,-4.1421245 3.3579,-7.4999799 7.5,-7.4999799 4.1421,0 7.5,3.3578554 7.5,7.4999799 z"
-         transform="matrix(0,-1,1,0,0,0)"
-         style="color:#000000;fill:url(#linearGradient6192);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:8;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         id="circle6184"
-         cx="-1062.8622"
-         cy="9.4999952"
-         r="7.49998" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path6186"
-         d="m 2,1062.8613 c 0,-4.1362 3.363788,-7.5 7.5,-7.5 4.136212,0 7.5,3.3638 7.5,7.5 0,4.1362 -3.363788,7.5 -7.5,7.5 -4.136212,0 -7.5,-3.3638 -7.5,-7.5 z m 1,0 c 0,3.5958 2.9042281,6.5 6.5,6.5 3.595772,0 6.5,-2.9042 6.5,-6.5 0,-3.5957 -2.904228,-6.5 -6.5,-6.5 -3.5957719,0 -6.5,2.9043 -6.5,6.5 z"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;opacity:0.07000002;color:#000000;fill:url(#linearGradient6194);fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:sans-serif;-inkscape-font-specification:sans-serif" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path6188"
-         d="m 2,1062.8613 c 0,-4.1391 3.3608366,-7.5 7.5,-7.5 4.139163,0 7.5,3.3609 7.5,7.5 0,4.1392 -3.360837,7.5 -7.5,7.5 -4.1391634,0 -7.5,-3.3608 -7.5,-7.5 z m 0.5,0 c 0,3.869 3.1310567,7 7,7 3.868943,0 7,-3.131 7,-7 0,-3.8689 -3.131057,-7 -7,-7 -3.8689433,0 -7,3.1311 -7,7 z"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;opacity:0.07000002;color:#000000;fill:url(#linearGradient6196);fill-opacity:1;stroke:none;stroke-width:0.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:sans-serif;-inkscape-font-specification:sans-serif" />
-      <rect
-         y="1053.3622"
-         x="-7.3563765e-06"
-         height="19"
-         width="19"
-         id="rect6190"
-         style="color:#000000;fill:none;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
-    </g>
     <circle
        sodipodi:ry="8.5"
        sodipodi:rx="8.5"
